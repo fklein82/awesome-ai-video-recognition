@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+
+video {
+    width: 0px;
+    height: 0px;
+}
+
+table {
+    width: auto;
+    margin: auto;
+}
+
+tr, td {
+    border: 0px;
+    text-align: center; 
+}
+
+
+#banner {
+    background-color: white;
+    background-image: url('banner.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+.navbar-brand img {
+    margin-right: 4px;
+    margin-top: -4px;
+}
+
+#appInfo {
+    list-style-type: square;
+    overflow: scroll;
+}
+
+@media (max-width: 1000px) {
+    #banner {
+        /* Disable banner image when screen size is too small. */
+        background-image: none;
+    }
+}
