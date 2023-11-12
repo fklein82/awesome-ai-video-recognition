@@ -1,4 +1,6 @@
-# AI Recognition Accelerator with Node.js and ml5.js
+# Welcome to Awesome AI Accelerators! 🤖🦾
+
+## AI Recognition Accelerator with Node.js and ml5.js
 
 This accelerator template leverages the simplicity and efficiency of Node.js and Express to create an AI Recognition Accelerator, featuring real-time object detection using ml5.js. It provides a user-friendly interface built with Materialize CSS, enabling dynamic interaction with AI models.
 
