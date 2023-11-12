@@ -23,10 +23,36 @@ npm install
 ## Then, start the server with:
 
 ```shell
-shell
-Copy code
 npm start
+```
 The app will be available at http://localhost:80.
+
+## Deploying on VMware Tanzu Application Platform
+To deploy this application on VMware Tanzu Application Platform, follow these steps:
+
+Ensure you have the Tanzu CLI installed and configured with access to your Tanzu Application Platform instance.
+
+### Navigate to your project directory:
+
+```shell
+cd [your-repo-directory]
+```
+### Use the Tanzu CLI to deploy your application:
+
+```shell
+tanzu apps workload create -f config/workload.yaml
+```
+
+### Monitor the deployment status:
+
+```shell
+tanzu apps workload tail ai-video-recognition --timestamp --since 1h
+```
+
+Once deployed, access your application via the URL provided by Tanzu Application Platform. You can find the url with the following command:
+
+```shell
+tanzu apps workload get ai-video-recognition
 ```
 
 ## Overview
