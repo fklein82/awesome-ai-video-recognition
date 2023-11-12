@@ -66,5 +66,7 @@ The index.html of this app contains:
 ## How to Contribute
 Contributions to improve or enhance this AI Recognition Accelerator are welcome. Feel free to open issues or submit pull requests with your suggestions or improvements.
 
-## License
-This project is available for free use.
+## Please Note
+The software is provided "as is", without warranties of any kind. As the creator, I am not liable for any claims, damages, or other liabilities that arise from the use of the work.
+
+
