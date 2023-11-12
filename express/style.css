@@ -20,3 +20,9 @@ tr, td {
 .navbar-dark.bg-dark {
     background-color: #0079bf; /* Couleur bleue spécifique de VMware */
 }
+
+.powered-by-container {
+    display: flex; /* Applique le flexbox */
+    align-items: center; /* Centre verticalement les éléments */
+    gap: 10px; /* Ajoute un espace entre le texte et l'image */
+}
