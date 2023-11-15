@@ -10,6 +10,5 @@ spec:
   source:
     git:
       url: https://github.com/fklein82/awesome-ai-video-recognition.git
-      subPath: video-recognition
       ref:
         branch: main
